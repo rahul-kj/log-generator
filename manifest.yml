@@ -1,0 +1,7 @@
+---
+applications:
+- name: log-generator
+  memory: 1024M
+  path: target/log-generator-0.0.1-SNAPSHOT.jar
+  health-check-type: none
+  no-route: true
