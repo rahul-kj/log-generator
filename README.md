@@ -4,9 +4,13 @@ title: Simple spring-boot Log Generator Application
 
 Use this application to generate logs in the PCF environment
 
-`git clone https://github.com/rahul-kj/log-generator.git`
-`mvn clean install`
-`cf push`
+```
+git clone https://github.com/rahul-kj/log-generator.git
+
+mvn clean install
+
+cf push
+```
 
 Sample output:
 
